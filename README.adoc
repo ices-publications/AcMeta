@@ -11,7 +11,7 @@ ifdef::env-github[]
 endif::[]
 
 
-This directory contains the text and source files necessary to generate the _A metadata convention for processed acoustic data from active acoustic systems_, link:acmeta.adoc[AcMeta], and is also where new versions of the convention are discussed and developed.
+This directory contains the text and source files necessary to generate _A metadata convention for processed acoustic data from active acoustic systems_, link:docs/acmeta.adoc[AcMeta], and is also where new versions of the convention are discussed and developed.
 
 Version 1.10 of the AcMeta convention (as ICES SISP 4-TG-AcMeta) is available https://www.ices.dk/sites/pub/Publication%20Reports/ICES%20Survey%20Protocols%20(SISP)/SISP-4%20A%20metadata%20convention%20for%20processed%20acoustic%20data%20from%20active%20acoustic%20systems.pdf[here]. Previous published versions were 1.0 (2013) and 1.05 (2014).
 
@@ -26,10 +26,8 @@ Before submitting a pull request, please take a moment to find out whether your 
 == How to contribute
 The metadata convention is written in AsciiDoc markup language. Suggestions, discussions, and contributions are done through the facilities provided by GitHub. Please use the https://github.com/ices-publications/AcMeta/issues[issue tracker] for suggestions and discussions, and create https://github.com/ices-publications/AcMeta/issues[pull requests] for contributions.
 
-For guidance on Git, GitHub, and AsciiDoc syntax, as well as the suggested Git workflow for contributors, please refer to documents in the https://github.com/ices-eg/wg_WGFAST/tree/master/How_to_contribute[How to contribute] folder.
+For guidance on Git, GitHub, and AsciiDoc syntax, as well as the suggested Git workflow for contributors, please refer to documents in the https://github.com/ices-eg/wg_WGFAST/tree/master/How_to_contribute[How to contribute] folder in the `ices-eg/wg_WGFAST` repository.
 
 
 == Preview of the current working draft
-The current working draft of the metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-publications/AcMeta/blob/master/Formatted_docs/TG-AcMeta.html[here].
-
-Or https://htmlpreview.github.io/?https://github.com/erinann/AcMeta/blob/master/Formatted_docs/TG-AcMeta.html[here] until this gets pushed to the upstream repo.
+The current working draft of the acoustic metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-publications/AcMeta/blob/master/Formatted_docs/TG-AcMeta.html[here].
