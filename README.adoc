@@ -24,10 +24,10 @@ Before submitting a pull request, please take a moment to find out whether your 
 
 
 == How to contribute
-The metadata convention is written in AsciiDoc markup language. Suggestions, discussions, and contributions are done through the facilities provided by GitHub. Please use the https://github.com/ices-eg/wg_WGFAST/issues[issue tracker] for suggestions and discussions, and create https://github.com/ices-eg/wg_WGFAST/pulls[pull requests] for contributions.
+The metadata convention is written in AsciiDoc markup language. Suggestions, discussions, and contributions are done through the facilities provided by GitHub. Please use the https://github.com/ices-publications/AcMeta/issues[issue tracker] for suggestions and discussions, and create https://github.com/ices-publications/AcMeta/issues[pull requests] for contributions.
 
 For guidance on Git, GitHub, and AsciiDoc syntax, as well as the suggested Git workflow for contributors, please refer to documents in the https://github.com/ices-eg/wg_WGFAST/tree/master/How_to_contribute[How to contribute] folder.
 
 
 == Preview of the current working draft
-The current working draft of the metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-eg/wg_WGFAST/blob/master/Formatted_docs/TG-AcMeta.html[here].
+The current working draft of the metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-publications/AcMeta/Formatted_docs/TG-AcMeta.html[here].
