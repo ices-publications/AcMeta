@@ -19,7 +19,7 @@ Version 1.10 of the AcMeta convention (as ICES SISP 4-TG-AcMeta) is available ht
 == Preview of the current working draft
 The current working draft of the acoustic metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-publications/AcMeta/blob/master/Formatted_docs/TG-AcMeta.html[here].
 
-![](https://github.com/ices-publications/AcMeta/workflows/BuildDocuments/badge.svg)
+image:https://github.com/ices-publications/AcMeta/workflows/BuildDocuments/badge.svg[]
 
 == Suggestions and contributions welcome
 WGFAST welcomes suggestions, discussion, and contributions to this metadata convention.
