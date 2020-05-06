@@ -61,7 +61,7 @@ To determine the geographic location of a sample point or a single target in geo
 [discrete]
 ==== About transducer orientation
 
-Transducers are not only located, but also oriented - that is, they point somewhere. Like location, orientation requires three parameters to be specified, in this case angles rather than coordinates. 
+Transducers are not only located, but also oriented - that is, they point somewhere. Like location, orientation requires three parameters to be specified, in this case angles rather than coordinates.
 
 The X-Y-Z axes as defined above are taken as a reference for orientation. In summary:
 
@@ -178,7 +178,7 @@ elevation = 45° , azimuth = 90° , rotation = 270° +
 -OR- +
  +
 alongship = 0° , athwartship = 45° , rotation = 270° +
- 
+
 
 * A transducer beam pointing to port at an angle of 45 degrees with the positive minor axis of the transducer pointing forward is defined by either: +
  +
