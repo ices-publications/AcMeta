@@ -558,7 +558,7 @@ Altered obligations on attributes from Mandatory (M) or Mandatory if Applicable 
 |1.10 |10 May 2016 a|
 The ICES Data Centre (Hjalte Parner, Nils Olav Handegard) are constructing an Acoustic Trawl Survey database with the intention of implementing the ICES Acoustic Metadata Standard. Through this process a number of new and existing attribute fields were discussed. This revision documents the consequent changes that were made as described below.
 
-** Add Category: 
+** Add Category:
 *** *Cruise attributes*: cruise_summary_report
 *** *Ship attributes*: ship_platform_code and ship_platform_class using ICES database
 *** *Data processing attributes*: data_processing_triwave_correction
