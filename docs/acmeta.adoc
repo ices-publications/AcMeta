@@ -1,7 +1,7 @@
 = A metadata convention for processed acoustic data from active acoustic systems
 ICES WGFAST Topic Group, TG-AcMeta
 :revnumber: 2.0
-:revdate: 15 March 2020
+:revdate: 2 July 2020
 :toc: left
 :toclevels: 3
 :doctype: book
