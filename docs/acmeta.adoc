@@ -592,6 +592,9 @@ Major revision. Moved to GitHub and available on ICES WGFAST GitHub https://gith
 
 ** Minor edits to:
 *** Improve appendix sections 'Transducer orientation conventions' and 'Beam geometry'.
+
+|2.01 |2 July 2020 a|
+** Removed Appendix A1 - platform categories. Replaced references to Appendix A1 with URL for ICES controlled vocabularly for platforms (http://vocab.ices.dk/?ref=311
 |===
 
 == Acknowledgements
