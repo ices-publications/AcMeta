@@ -79,7 +79,7 @@ The metadata attribute fields in this document build on existing conventions and
 * Who: Who produced the data?
 * How: How were the data produced and how are they being made available?
 
-All fields should be human-readable and can be of either '`character`' or '`numeric`' type. Where applicable, metadata attribute definitions will state that controlled vocabulary should be used. Use of controlled vocabulary aids consistency, accuracy, interoperability, and data discovery. Standard lists for controlled vocabulary developed specifically for this metadata convention are given in <<listControlledVocab>>. If the appropriate words are not present in the standard list users should provide their own terminology. The standard lists can be extended according to user feedback to accommodate new terminologies in future versions of this metadata convention.
+All fields should be human-readable and can be of either '`character`' or '`numeric`' type. Where applicable, metadata attribute definitions will state that controlled vocabulary should be used. Use of controlled vocabulary aids consistency, accuracy, interoperability, and data discovery. ICES controlled vocabulary for platform classes are used (http://vocab.ices.dk/?ref=311). Standard lists for controlled vocabulary developed specifically for this metadata convention are given in <<listControlledVocab>>. If the appropriate words are not present in the standard list users should provide their own terminology. The standard lists can be extended according to user feedback to accommodate new terminologies in future versions of this metadata convention.
 
 Wherever possible, the global attributes are based on established authorities. In some instances the metadata attribute may cite other authorities, while other metadata attributes may be unique to this metadata convention. Where they exist, the relevant authority is cited for each of the attribute fields. A table of the various metadata authorities is given in <<metadataAuthorities>>.
 
@@ -180,7 +180,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |data_centre |Data centre in charge of the data management or party who distributed the resource |S | |IMOS |M |N
 |data_centre_email |Data centre contact e-mail address |S | |IMOS |M |N
 |mission_id |ID code of mission |S | | |M |1
-|mission_platform |Platform type (see <<list_mission_attributes>>, Standard lists) |S | | |M |N
+|mission_platform |Platform type (see <<http://vocab.ices.dk/?ref=311>>) |S | | |M |N
 |creator |An entity primarily responsible for making the resource. |S | |Dublin core |M |N
 |contributor |An entity responsible for making contributions to the resource |S | |Dublin core |M |N
 |mission_comments |Free text field for relevant information that might not be captured by the defined attributes |S | | |O |1
@@ -607,24 +607,6 @@ bibliography::[]
 
 [appendix]
 == Standard lists for controlled vocabulary [[listControlledVocab]]
-
-
-=== Category: Mission attributes: mission_platform; Ship attributes: ship_type [[list_mission_attributes]]
-
-[%autowidth]
-|===
-|Ship, research
-|Ship, fishing
-|Ship, other
-|Buoy, moored
-|Buoy, drifting
-|Glider
-|Underwater vehicle, autonomous, motorised
-|Underwater vehicle, towed
-|Underwater vehicle, autonomous, glider
-|===
-
-* Controlled vocabulary sources from Marine Metadata Interoperability (https://marinemetadata.org/[MMI]) project and https://mmisw.org/ont/mmi/platform[MMI Platform Ontology].
 
 === Category: Instrument attributes: instrument_transducer_location [[list_instrument_attributes]]
 
