@@ -366,7 +366,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Maximum occurrences
 |data_processing_software_name |Name of software that was used to process raw acoustic data |S | | |M |N
 |data_processing_software_version |Version of software that was used to process raw acoustic data |S | | |M |N
-|data_processing_triwave_correction |Applies to Simrad ES60 and ES70 echosounders only. Simrad ES60/70 echosounders have an error function embedded in the raw data that overlays addition of to the data of a triangle wave of +/- 0.5 dB peak to peak and period of 2720 pings. A utility (es60adjust.jar) to correct for this error can be found at https://bitbucket.org/gjm/calibration-code/wiki/Home. Controlled vocabulary is '`Yes`' if error has been corrected and '`No`' if not.
+|data_processing_triwave_correction |Applies to Simrad ES60 and ES70 echosounders only. Simrad ES60/70 echosounders have an error function embedded in the raw data that overlays addition of to the data of a triangle wave of +/- 0.5 dB peak to peak and period of 2720 pings. A utility (es60adjust.jar) to correct for this error can be found at https://bitbucket.org/gjm/calibration-code/wiki/Home. Controlled vocabulary is '`Yes`' if error has been corrected, '`No`' if not corrected and 'Not applicable' for sounders other than Simrad ES60/ES70.
 
 See also pages 63-64 of Demer, D. A., Berger, L., Bernasconi, M., Bethke, E., Boswell, K., Chu, D., and Domokos, R. et al. 2015. Calibration of acoustic instruments. ICES Cooperative Research Report No.326: 133 pp.|S | | |MA |1
 |data_processing_channel_id |Unique identifier for each data channel. |S | | |R |1
