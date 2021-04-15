@@ -599,7 +599,7 @@ Moved to ICES Publications GitHub https://github.com/ices-publications/AcMeta[pa
 
 == Acknowledgements
 
-Jens Rasmussen, Marine Scotland Science, Marine Laboratory, is thanked for his review on earlier version of this document.
+Present and past members of ICES WGFAST Topic Group on Acoustic Metadata (TG-AcMeta) are acknowledged for facilitating metadata standards and developing of this convention document.
 
 == References
 
@@ -715,31 +715,3 @@ include::transducerOrientationConventions.adoc[]
 == Beam geometry [[beamGeometry]]
 
 include::beamGeometry.adoc[]
-
-[appendix]
-== List of participants
-
-[%autowidth]
-|===
-|Nolwenn Behagle |IRD |France |nolwenn.behagle@ird.fr
-|Laurent Berger |IFREMER |France |Laurent.Berger@ifremer.fr
-|Reka Domokos |NOAA |USA |Reka.Domokos@noaa.gov
-|Mathieu Doray |IFREMER |France |Mathieu.Doray@ifremer.fr
-|Adam Dunford |NIWA |New Zealand |adam.dunford@niwa.co.nz
-|Stephane Gauthier |DFO |Canada |Stephane.Gauthier@dfo-mpo.gc.ca
-|Keith, Gordon |CSIRO |Australia |gordon.keith@csiro.au
-|Mike Jech |NOAA |USA |michael.jech@noaa.gov
-|Erwan Josse |IRD |France |erwan.josse@ird.fr
-|Laura Kracker |NOAA |USA |Laura.Kracker@noaa.gov
-|Tomasz Laczkowski |MIR |Poland |tomasz.laczkowski@mir.gdynia.pl
-|Gavin Macaulay |IMR |Norway |gavin.macaulay@IMR.no
-|David Millington |Myriax Pty Ltd |Australia |davidm@echoview.com
-|Hassan Moustahfid |NOAA |USA |Hassan.Moustahfid@noaa.gov
-|Handegard, Nils Olav |Nils Olav |IMR |nilsolav@IMR.no
-|Richard O'Driscoll |NIWA |New Zealand |r.odriscoll@niwa.co.nz
-|Suzanne Romain |Consultant |USA |sromain@gmail.com
-|Tim Ryan (Chair) |CSIRO |Australia |tim.ryan@csiro.au
-|Chris Taylor |NOAA |USA |Chris.Taylor@noaa.gov
-|Sigurður Þór Jónsson |Hafro |Iceland |sigurdur@hafro.is
-|Brent Wood |NIWA |New Zealand |brent.wood@niwa.co.nz
-|===
