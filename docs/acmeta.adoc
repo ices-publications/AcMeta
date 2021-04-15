@@ -67,11 +67,11 @@ In many cases the cost of collecting acoustic data is significant and adhering t
 
 This document describes a metadata convention for processed acoustic data. It is assumed that appropriate data and metadata management of unprocessed acoustic data files will be in place, discussion of which is beyond the scope of this document.
 
-Processed acoustic data and metadata may be held in a variety of formats including, but not limited to, relational databases, Extensible Markup Language (XML), JavaScript Object Notation (JSON), NetCDF and Hierarchical Data Format (HDF). Storage of the data and associated metadata is a question of implementation and is not mandated or defined by this document. When choosing a data format some key considerations are ease of data exchange, visibility of data and metadata, and potential for automated harvesting of metadata. It is recommended that guidance and assistance from metadata experts is sought when realizing this metadata convention in a specific implementation format.
+Processed acoustic data and metadata may be held in a variety of formats including, but not limited to, relational databases, Extensible Markup Language (XML), JavaScript Object Notation (JSON), Network Common Data Format (NetCDF) and Hierarchical Data Format (HDF). Storage of the data and associated metadata is a question of implementation and is not mandated or defined by this document. When choosing a data format some key considerations are ease of data exchange, visibility of data and metadata, and potential for automated harvesting of metadata. It is recommended that guidance and assistance from metadata experts is sought when realizing this metadata convention in a specific implementation format.
 
 == Global attributes
 
-The metadata attribute fields in this document build on existing conventions and are presented following the Network Common Data Format (NetCDF) cite:[rew1990,unidata2017] format of global attributes. The global attributes describe the overall contents of the file and allow for data discovery. Global attributes can be thought of as conveying five kinds of information:
+The metadata attribute fields in this document build on existing conventions and are presented following the NetCDF cite:[rew1990,unidata2017] format of global attributes. The global attributes describe the overall contents of the file and allow for data discovery. Global attributes can be thought of as conveying five kinds of information:
 
 * What: What are the data in the dataset?
 * Where: The spatial coverage of the data.
@@ -685,13 +685,13 @@ bibliography::[]
 
 |CF |http://cfconventions.org/[NetCDF Climate and Forecast (CF) Metadata Convention]
 
-|NACDD |https://www.unidata.ucar.edu/software/netcdf-java/current/metadata/DataDiscoveryAttConvention.html[NetCDF Attribute Convention for Dataset Discovery]
+|NACDD |https://www.unidata.ucar.edu/software/netcdf-java/v4.6/metadata/DataDiscoveryAttConvention.html[NetCDF Attribute Convention for Dataset Discovery]
 
 |Dublin Core |https://www.dublincore.org/[The Dublin Core Metadata Initiative (DCMI)]
 
 |IMOS |http://content.aodn.org.au/Documents/IMOS/Conventions/IMOS_NetCDF_Conventions.pdf[Integrated Marine Observing System]
 
-|BASOOP |http://imos.org.au/facilities/shipsofopportunity/bioacoustic/[IMOS Bio-Acoustic Ships of opportunity]
+|BASOOP |http://imos.org.au/facilities/shipsofopportunity/bioacoustic/[IMOS Bioacoustics sub-Facility]
 
 |OceanSITES |http://www.oceansites.org/index.html[An international network of time series observing sites]
 
