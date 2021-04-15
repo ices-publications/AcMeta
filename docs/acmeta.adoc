@@ -599,7 +599,7 @@ Moved to ICES Publications GitHub https://github.com/ices-publications/AcMeta[pa
 
 == Acknowledgements
 
-Present and past members of ICES WGFAST Topic Group on Acoustic Metadata (TG-AcMeta) are acknowledged for facilitating metadata standards and developing of this convention document.
+Present and past members of ICES WGFAST Topic Group on Acoustic Metadata (TG-AcMeta) are acknowledged for facilitating metadata standards and developing this convention document.
 
 == References
 
