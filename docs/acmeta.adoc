@@ -67,7 +67,7 @@ In many cases the cost of collecting acoustic data is significant and adhering t
 
 This document describes a metadata convention for processed acoustic data. It is assumed that appropriate data and metadata management of unprocessed acoustic data files will be in place, discussion of which is beyond the scope of this document.
 
-Processed acoustic data and metadata may be held in a variety of formats including, but not limited to, relational databases, Extensible Markup Language (XML), JavaScript Object Notation (JSON), Network Common Data Format (NetCDF) and Hierarchical Data Format (HDF). Storage of the data and associated metadata is a question of implementation and is not mandated or defined by this document. When choosing a data format some key considerations are ease of data exchange, visibility of data and metadata, and potential for automated harvesting of metadata. It is recommended that guidance and assistance from metadata experts is sought when realizing this metadata convention in a specific implementation format.
+Processed acoustic data and metadata may be held in a variety of formats including, but not limited to, relational databases, Extensible Markup Language (XML), JavaScript Object Notation (JSON), Network Common Data Format (NetCDF) and Hierarchical Data Format (HDF). Storage of the data and associated metadata is a question of implementation and is not mandated or defined by this document. When choosing a data format some key considerations are ease of data exchange, visibility of data and metadata, and potential for automated harvesting of metadata. It is recommended that guidance and assistance from metadata experts are sought when realizing this metadata convention in a specific implementation format.
 
 == Global attributes
 
@@ -193,7 +193,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Maximum occurrences
 |cruise_name|Formal name of cruise as recorded by cruise documentation or institutional data centre.|S|||MA|1
 |cruise_description|Free text field to describe the cruise. May include list of objectives of the cruise. For example scientific survey, commercial fishing, resupply, or combinations of these.|S|||MA|1
-|cruise_summary_report|Published or web-based references that links to the cruise report. SeaDataNet - Pan European Infrastructure for Ocean and Marine Data Management have a well developed Cruise Summary Report (https://www.seadatanet.org/Metadata/CSR-Cruises[CSR]) system that is in wide use and follows ISO standards. Adoption of this format is recommended and may be obligatory for nations that participate in the SeaDataNet endeavour. See https://www.seadatanet.org/Standards/Metadata-formats/CSR[CSR] for more information. Alternatively, institutional cruise reports should be referenced. If available, Digital Object Identifiers (DOI's) should be given.|S||ICES/SeaDataNet|MA|1
+|cruise_summary_report|Published or web-based references that link to the cruise report. SeaDataNet - Pan-European Infrastructure for Ocean and Marine Data Management has a well developed Cruise Summary Report (https://www.seadatanet.org/Metadata/CSR-Cruises[CSR]) system that is in wide use and follows ISO standards. Adoption of this format is recommended and may be obligatory for nations that participate in the SeaDataNet endeavour. See https://www.seadatanet.org/Standards/Metadata-formats/CSR[CSR] for more information. Alternatively, institutional cruise reports should be referenced. If available, Digital Object Identifiers (DOI's) should be given.|S||ICES/SeaDataNet|MA|1
 |cruise_area_description|List main areas of operation (e.g. Southern Pacific Ocean, Chatham Rise Region, and Indian Ocean High Seas).|S|||MA|N
 |cruise_start_date|Start date of cruise in ISO 8601 format. For example, a local time of 18:00 on the 24^th^ of October 2008 would be represented as 2008-10-24T08:00:00Z +10 (local).|S|||MA|
 |cruise_end_date|see cruise_start_date.|S||IMOS|MA|1
@@ -248,7 +248,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |===
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Maximum occurrences
 |platform_mobility |Active acoustic systems are always associated with a platform. Controlled vocabulary for defining mobility of a platform is 'Mobile' or 'Fixed'. |S | | |M |1
-|platform_class |Controlled vocabularly for class of plaform (see ICES controlled vocabulary http://vocab.ices.dk/?ref=311[here]). |S | | |MA |1
+|platform_class |Controlled vocabulary for class of plaform (see ICES controlled vocabulary http://vocab.ices.dk/?ref=311[here]). |S | | |MA |1
 |platform_description |Free text field to describe the platform. This may include a description of the platform, its objectives, details about the cruise (if applicable) and other information relevant to the data being collected. |S | | |MA |1
 |platform_depth |Seafloor depth at platform site. |N |m | |MA |1
 |platform_northlimit |The constant coordinate for the northernmost face or edge. |N | |Dublin core* |MA |1
@@ -387,7 +387,7 @@ See also pages 63-64 of Demer, D. A., Berger, L., Bernasconi, M., Bethke, E., Bo
 |data_processing_motion_correction |Attribute to define transducer motion correction is applied or not. Controlled vocabulary is '`Yes`' if correction has been applied and '`No`' if not. |S | | |MA |1
 |data_processing_motion_correction_description |A reference for commonly used transducer motion correction if applied is (e.g. Dunford, A. J. 2005. Correcting echo-integration data for transducer motion. The Journal of the Acoustical Society of America, 118: 2121-2123). |S | | |MA |1
 |data_processing_amplifier_linearity_correction |Attribute to define whether correction has been made for amplifier non linearity. Controlled vocabulary is '`Yes`' if correction has been applied, '`No`' if not and 'Not applicable' if it is not applicable. |S | | |MA |1
-|data_processing_amplifier_linearity_correction_description |The reference for this correction, if applied, is De Robertis et al. 2019. Amplifier linearity accounts for discrepancies in echo-integration measurements from two widely used echosounders. ICES Journal of Marine Science, 76:1882–1892 . See Figure 8a. Please provide extra comments as required to describe the actual correction method. |S | | |MA |1
+|data_processing_amplifier_linearity_correction_description |The reference for this correction, if applied, is De Robertis, A. et al. 2019. Amplifier linearity accounts for discrepancies in echo-integration measurements from two widely used echosounders. ICES Journal of Marine Science, 76 :1882–1892. See Figure 8a. Please provide extra comments as required to describe the actual correction method. |S | | |MA |1
 |data_processing_comments |Free text field for relevant information that might not be captured by the defined attributes. |S | | |O |1
 |===
 
@@ -558,7 +558,7 @@ Altered obligations on attributes from Mandatory (M) or Mandatory if Applicable 
 
 
 |1.10 |10 May 2016 a|
-The ICES Data Centre (Hjalte Parner, Nils Olav Handegard) are constructing an Acoustic Trawl Survey database with the intention of implementing the ICES Acoustic Metadata Standard. Through this process a number of new and existing attribute fields were discussed. This revision documents the consequent changes that were made as described below.
+The ICES Data Centre (Hjalte Parner, Nils Olav Handegard) is constructing an Acoustic Trawl Survey database with the intention of implementing the ICES Acoustic Metadata Standard. Through this process a number of new and existing attribute fields were discussed. This revision documents the consequent changes that were made as described below.
 
 ** Add Category:
 *** *Cruise attributes*: cruise_summary_report
