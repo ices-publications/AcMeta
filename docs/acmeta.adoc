@@ -180,7 +180,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |data_centre |Data centre in charge of the data management or party who distributed the resource. |S | |IMOS |M |N
 |data_centre_email |Data centre contact e-mail address. |S | |IMOS |M |N
 |mission_id |ID code of mission. |S | | |M |1
-|mission_platform |Platform type (see ICES controlled vocabulary http://vocab.ices.dk/?ref=311[here]). For example, define 'Research vessel' if your mission platform is a research vessel. |S | | |M |N
+|mission_platform |Platform type (see ICES controlled vocabulary https://vocab.ices.dk/?ref=311[here]). For example, define 'Research vessel' if your mission platform is a research vessel. |S | | |M |N
 |creator |An entity primarily responsible for making the resource. |S | |Dublin core |M |N
 |contributor |An entity responsible for making contributions to the resource. |S | |Dublin core |M |N
 |mission_comments |Free text field for relevant information that might not be captured by the defined attributes. |S | | |O |1
@@ -222,10 +222,10 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |===
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Occurrences
 |ship_name |Name of the ship. |S | | |MA |1
-|ship_type |Describe type of ship that is hosting the acoustic instrumentation (see ICES controlled vocabulary http://vocab.ices.dk/?ref=311[here]). For example, define 'Research vessel' if it is a research vessel. |S | | |MA |1
+|ship_type |Describe type of ship that is hosting the acoustic instrumentation (see ICES controlled vocabulary https://vocab.ices.dk/?ref=311[here]). For example, define 'Research vessel' if it is a research vessel. |S | | |MA |1
 |ship_code |For example, in-house code associated with ship, e.g. SS = Southern Surveyor or ship national identifier. |S | | |O |1
-|ship_platform_code |ICES database of known ships (see http://vocab.ices.dk/Request/Login.aspx?ReturnUrl=%2frequest[here]). Requests can be made to add new vessels to the database by contacting accessions@ices.dk. For example, define '33OA' for the ship 'Oscar Dyson'. |S | |ICES/SeaDataNet |MA |1
-|ship_platform_class |ICES controlled vocabulary for platform class (see http://vocab.ices.dk/?ref=311[here]). For example, define '31' for 'Research vessel'. |S | |ICES/SeaDataNet |MA |1
+|ship_platform_code |SeaDataNet Ship and Platform Codes at ICES (see https://vocab.ices.dk/?ref=315[here]). Requests can be made to add new vessels to the database by contacting accessions@ices.dk. For example, define '33OA' for the ship 'Oscar Dyson'. |S | |ICES/SeaDataNet |MA |1
+|ship_platform_class |ICES controlled vocabulary for platform class (see https://vocab.ices.dk/?ref=311[here]). For example, define '31' for 'Research vessel'. |S | |ICES/SeaDataNet |MA |1
 |ship_callsign |Ship call sign. |S | | |MA |1
 |ship_alt_callsign |Alternative call sign if the ship has more than one. |S | | |O |1
 |ship_IMO |Ship's International Maritime Organisation ship identification number. |S | | |O |1
