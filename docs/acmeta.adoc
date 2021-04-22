@@ -236,8 +236,8 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |ship_tonnage |Gross tonnage of the ship. |N |t | |R |1
 |ship_engine_power |The total power available for ship propulsion. |N |kW | |R |1
 |ship_noise_design |For example, ICES 209 compliant cite:[mitson1995]. Otherwise description of noise performance of the ship. |S | | |R |1
-|ship_acknowledgement |Any users (including re-packagers) of this data are required to clearly acknowledge the source of the material in this format. For example, ship of opportunity - acknowledge contribution by ship and company. |S | | |R |1
-|ship_comments |Free text field for relevant information that might not be captured by the defined attributes. |S | | |O |1
+|ship_acknowledgement |Free text field to acknowledge the ship and ship operator. |S | | |R |1
+|ship_comments |Free text field for relevant information that might not be captured by the defined ship attributes. |S | | |O |1
 |===
 
 
@@ -247,9 +247,15 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 [cols="2,6,1,1,1,1,1",options="header"]
 |===
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Maximum occurrences
+|platform_name |Name of the platform. |S | | |MA |1
 |platform_mobility |Active acoustic systems are always associated with a platform. Controlled vocabulary for defining mobility of a platform is 'Mobile' or 'Fixed'. |S | | |M |1
-|platform_class |Controlled vocabulary for class of plaform (see ICES controlled vocabulary https://vocab.ices.dk/?ref=311[here]). |S | | |MA |1
+|platform_type |Type of platform hosting the acoustic instrumentation (see ICES controlled vocabulary https://vocab.ices.dk/?ref=311[here]). For example, 'Autonomous underwater vehicle'. |S | | |MA |1
+|platform_code |In-house code associated with the platform. For example, define 'SD1007' for a Saildrone with vehicle number '1007'.  |S | | |O |1
+|platform_class |ICES controlled vocabulary for platform class (see https://vocab.ices.dk/?ref=311[here]). For example, define '25' for 'Autonomous underwater vehicle'. |S | | |MA |1
+|platform_length |Overall length of the platform. |N |m | |R |1
+|platform_breadth |The width of the platform at its widest point. |N |m | |R |1
 |platform_description |Free text field to describe the platform. This may include a description of the platform, its objectives, details about the cruise (if applicable) and other information relevant to the data being collected. |S | | |MA |1
+|platform_site_name |For example name of location where platform is deployed. |S | | |O |1
 |platform_depth |Seafloor depth at platform site. |N |m | |MA |1
 |platform_northlimit |The constant coordinate for the northernmost face or edge. |N | |Dublin core* |MA |1
 |platform_eastlimit |The constant coordinate for the easternmost face or edge. |N | |Dublin core* |MA |1
@@ -261,11 +267,10 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |platform_zunits |The units of unlabelled numeric values of platform_uplimit, platform_downlimit. SI units are 'm'. |S | |Dublin core* |MA |1
 |platform_projection |The name of the projection used with any parameters required, such as ellipsoid parameters, datum, standard parallels and meridians, zone, etc. |S | |Dublin core* |MA |1
 |platform_deployment_date |Start time of platform deployment in ISO 8601 format. For example, a local time of 18:00 on the 24^th^ of October 2008 would be represented as 2008-10-24T08:00:00Z +10 (local). |S | | |MA |1
-|platform_retrieval_date |see platform_deployment_date. |S | | |MA |1
-|platform_code |e.g. platform ID. |S | | |O |1
-|platform_site_name |e.g. name of location where platform is deployed. |S | | |O |1
-|platform_operator |Name of organisation which operates the platform. |S | | |MA |N
-|platform_comments |Free text field for relevant information that might not be captured by the defined attributes. |S | | |O |1
+|platform_retrieval_date |See platform_deployment_date. |S | | |MA |1
+|platform_operator |Name of organisation or company that operates the platform. |S | | |MA |N
+|platform_acknowledgement |Free text field to acknowledge the platform and platform operator. |S | | |R |1
+|platform_comments |Free text field for relevant information that might not be captured by the defined platform attributes. |S | | |O |1
 |===
 
 +*+ Dublin core https://www.dublincore.org/specifications/dublin-core/dcmi-box/[DCMI Bounding Box Encoding Scheme].
