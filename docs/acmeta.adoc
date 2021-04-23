@@ -371,7 +371,7 @@ For example, a local time of 18:00 on the 24^th^ of October 2008 would be repres
 |Attribute name |Definition |Data type |Units |Authority |Obligation |Maximum occurrences
 |data_processing_software_name |Name of software that was used to process raw acoustic data. |S | | |M |N
 |data_processing_software_version |Version of software that was used to process raw acoustic data. |S | | |M |N
-|data_processing_triwave_correction |Applies to Simrad ES60 and ES70 echosounders only. The raw data from Simrad ES60/ES70 echosounders are modulated with a triangle wave error sequence with a 1 dB re 1 W peak-to-peak amplitude and a 2720 ping period. Controlled vocabulary is '`Yes`' if error has been corrected, '`No`' if not corrected, and 'Not applicable' for echosounders other than Simrad ES60/ES70.
+|data_processing_triwave_correction |Applies to Simrad ES60 and ES70 echosounders only. The raw data from Simrad ES60/ES70 echosounders are modulated with a triangle wave error sequence with a 1 dB peak-to-peak amplitude and a 2720 ping period. Controlled vocabulary is '`Yes`' if error has been corrected, '`No`' if not corrected, and 'Not applicable' for echosounders other than Simrad ES60/ES70.
 
 See also pages 63-64 of Demer, D. A., Berger, L., Bernasconi, M., Bethke, E., Boswell, K., Chu, D., and Domokos, R. et al. 2015. Calibration of acoustic instruments. ICES Cooperative Research Report No.326: 133 pp.|S | | |MA |1
 |data_processing_channel_id |Unique identifier for each data channel. |S | | |R |1
