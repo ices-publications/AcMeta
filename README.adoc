@@ -17,7 +17,7 @@ This repository contains the text and source files necessary to generate _A meta
 Version 1.10 of the AcMeta convention (as ICES SISP 4-TG-AcMeta) is available https://www.ices.dk/sites/pub/Publication%20Reports/ICES%20Survey%20Protocols%20(SISP)/SISP-4%20A%20metadata%20convention%20for%20processed%20acoustic%20data%20from%20active%20acoustic%20systems.pdf[here]. Previous published versions were 1.0 (2013) and 1.05 (2014).
 
 == Preview of the current working draft
-The current working draft of the acoustic metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://gitcdn.link/repo/ices-publications/AcMeta/master/Formatted_docs/TG-AcMeta.html[here] (note that this can be up to two hours out-of-date).
+The current working draft of the acoustic metadata convention is in the `Formatted_docs` folder as an HTML file. To view a rendering of convention in your web browser, please go https://htmlpreview.github.io/?https://github.com/ices-publications/AcMeta/blob/master/Formatted_docs/TG-AcMeta.html[here] (note that it takes a few minutes for new changes to appear).
 
 image:https://github.com/ices-publications/AcMeta/workflows/BuildDocuments/badge.svg[]
 
